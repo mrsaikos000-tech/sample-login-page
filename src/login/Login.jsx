@@ -157,6 +157,10 @@ export default function Login() {
               "Log in"
             )}
           </button>
+          <button type="submit" className="btn" style={{background: 'red'}} disabled={loading}>
+           
+              Clear
+          </button>
 
           <p className="login__footer">
             New here?{" "}
